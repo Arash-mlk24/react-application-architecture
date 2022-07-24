@@ -1,0 +1,34 @@
+.new-account {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-left: 32px;
+    overflow-x: auto;
+}
+
+.new-account-loading {
+    justify-content: center;
+    align-items: center;
+}
+
+.h-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.h-submit-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+
+}

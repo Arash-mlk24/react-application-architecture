@@ -1,0 +1,15 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #031926;
+    border-radius: 20px;
+    padding: 46px 92px 0px 92px;
+}

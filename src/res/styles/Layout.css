@@ -1,0 +1,118 @@
+.layout-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+}
+
+.layout-top-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.layout-top-right-container {
+    height: 100%;
+    width: calc(100% - 128px);
+}
+
+.layout-top-left-container {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.layout-bottom-container {
+    display: flex;
+    height: calc(100% - 96px);
+    width: 100%;
+}
+
+.layout-bottom-left-container {
+    width: 96px;
+}
+
+.layout-sidenav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    height: calc(100% - 96px);
+    width: 86px;
+    overflow: hidden;
+    border-top-right-radius: 40px;
+    background-color: #031926;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.layout-sidenav::-webkit-scrollbar {
+    display: none;
+}
+
+.layout-sidenav-open {
+    width: fit-content;
+    padding-right: 14px;
+}
+
+.profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 66px;
+    border-radius: 66px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.layout-bottom-right-container {
+    display: flex;
+    width: calc(100% - 128px);
+}
+
+.sidenav-items-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav-item {
+    background-color: #031926;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: flex-start;
+    margin-left: 12px;
+    border-radius: 100px;
+    padding-left: 13px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidenav-item:hover {
+    background-color: #7CE577;
+}
+
+.avatar-container {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+}

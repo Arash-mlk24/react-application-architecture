@@ -1,0 +1,29 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home-loading {
+    justify-content: center;
+}
+
+.home-top-container {}
+
+.home-skeleton-top {
+    width: 80px;
+    height: 200px;
+}
+
+.home-bottom-container-loading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-bottom-container {
+    display: flex;
+    align-items: center;
+}

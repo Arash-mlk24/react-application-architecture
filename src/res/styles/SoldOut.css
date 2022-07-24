@@ -1,0 +1,22 @@
+.sold-out {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.date-filter-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    flex-wrap: wrap;
+}
+
+.date-filter {
+    display: inherit;
+    align-items: center;
+}

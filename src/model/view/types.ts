@@ -1,0 +1,1 @@
+export type navType = 'home' | 'pending' | 'confirmed' | 'sold-out' | 'finances' | 'contacts' | 'new-account' | '';
